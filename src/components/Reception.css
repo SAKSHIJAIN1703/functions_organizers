@@ -1,0 +1,113 @@
+
+.reception {
+  background-color: #e9dddd;
+  padding: 130px 0;
+  
+}
+
+
+
+.reception-info {
+  font-family: var(--main-font);
+  text-align: center;
+  height: 100%;
+  background-color: rgb(255 141 141 / 20%);
+}
+
+.reception h1 {
+  margin: 10px;
+}
+.reception h2 {
+  margin: 50px 0 10px 0;
+}
+
+.reception-info p {
+  margin: 20px 120px;
+  font-size: 20px;
+  letter-spacing: .8px;
+}
+
+
+
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--mainBlack);
+  background: var(--main-yellow);
+  padding: 9px;
+  border: 1px solid var(--main-black);
+  border-radius: 1px;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: var(--main-font);
+  width:150px;
+  height: 40px;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--main-yellow);
+}
+
+.reception-select {
+  overflow: hidden;
+  padding: 0 100px;
+}
+
+.one, .two {
+  width: 49%;
+  height: 300px;
+  float: left;
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: var(--main-font);
+  letter-spacing: var(--mainSpacing);
+}
+
+.one {
+  background-image: url('../images/img13.jpg');  
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+  transition: var(--mainTransition);
+  box-shadow: var(--lightShadow);
+}
+.two {
+  background-image: url('../images/img14.jpg');  
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: var(--mainTransition);
+  box-shadow: var(--lightShadow);
+}
+.one:hover, .two:hover {
+  box-shadow: var(--darkShadow);
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  opacity: 0;
+  text-align: center;
+  cursor: pointer;
+  font-family: var(--main-font);
+  transition: all 0.30s ease-in-out;
+}
+
+.card h1 {
+  padding: 25px;
+  font-size: 2vh;
+  color: var(--font-color);
+  background-color: var(--main-yellow);
+  border-radius: 2px;
+}
+
+.card:hover {
+  opacity: 0.98;
+}
+

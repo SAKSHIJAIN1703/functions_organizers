@@ -1,0 +1,55 @@
+.birthday {
+    height: 160vh;
+    text-align: center;
+    background-color: rgba(255, 157, 203, 0.9);
+    background:url('../images/img2.jpg') center/cover ;
+  }
+  
+  .banner img{
+    border-radius:15px;
+  }
+  .class{
+    background-color: blue;
+  }
+  .birthday-info {
+   
+    height: 100%;
+    
+    background-color: rgb(255 141 141 / 20%);
+    font-family: var(--main-font);
+    text-align: center;
+  }
+  
+  .birthday-content {
+    padding: 8vh 8px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  color:#ffffff;
+  }
+  
+  .birthday-content h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  
+  .birthday-content h4 {
+    font-size: 19px;
+    padding: 15px 30px;
+    letter-spacing: .5px;
+    color:#ffffff;
+    background: radial-gradient(red, transparent);
+
+  }
+  img.birthday__img{
+    border-radius: 10px;
+    width: 100%;
+}
+img.birthday__img::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243, 63, 63);
+  z-index: 1;
+  opacity: 1;
+}

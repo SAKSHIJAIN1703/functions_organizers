@@ -1,0 +1,16 @@
+.videoTag{
+    height: 100%;
+width: 100%;
+float: left;
+top: 0;
+padding: none;
+z-index:-1;
+position:absolute;
+
+}
+.background{
+    background: rgb(76 90 128 / 32%);
+    height: 100vh;
+   
+ 
+}

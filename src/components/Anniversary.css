@@ -1,0 +1,57 @@
+
+  .anniversary {
+    background-image: url('../images/img3.jpg');
+    background-attachment: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+   
+  }
+  .info{
+    background-color: rgb(96 113 66 / 43%);
+    height: 100%;
+    width: 30%;
+    margin-left: 50px;
+    font-family: var(--main-font);
+    text-align: center;
+    border-radius: 15px 50px  30px;
+  }
+  .anniversary-info {
+    
+    background-color: rgb(96 113 66 / 43%);
+    height: 100%;
+    width: 100%;
+    
+    font-family: var(--main-font);
+    text-align: center;
+    
+  }
+
+  
+  
+  .anniversary-content {
+    padding: 4vh 8px;
+  }
+  
+  .anniversary-content h1 {
+    font-size: 2vw;
+    margin-bottom: 20px;
+  }
+  
+  .anniversary-content h4 {
+    font-size: 2vw;
+  padding: 15px 30px;
+  letter-spacing: .5px;
+  }
+  
+  .anniversary-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }

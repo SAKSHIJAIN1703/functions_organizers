@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --main-yellow: #cbb470f2;
+  --main-black: #272829;
+  --main-white: #dfddd6;
+  --main-font: 'Stardos Stencil', cursive;
+  --mainTransition: all 0.25s ease-in-out;
+  --mainSpacing: 2px;
+  --lightShadow: 3px 8px 3px 1px rgba(0, 0, 0, 0.5);
+  --darkShadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgb(255 159 159);
+}
+/* globals */
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+
+/* Navbar */
+
+
